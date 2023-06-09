@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Stropper</string>
+
+    // Inicio
+    <string name="opcion_configuraciones">Configuraciones</string>
+    <string name="opcion_mis_juegos">Mis Juegos</string>
+    <string name="opcion_jugar">Jugar</string>
+
+
+    // Configuraciones
+    <string name="sub_text_setting">Configuraciones de la aplicación</string>
+    <string name="text_modovista">Modo Oscuro</string>
+    <string name="text_modoidioma">Idioma Ingles</string>
+    <string name="sub_text_setting_two">Configurar Dificultad del juego</string>
+    <string name="text_opcion_colores">Que colores quiers que aparezcan</string>
+    <string name="text_opcion_dificultad">Selecciona una dificultad</string>
+    <string name="color_amarillo">Amarillo</string>
+    <string name="color_rojo">Rojo</string>
+    <string name="color_verde">Verde</string>
+    <string name="color_azul">Azul</string>
+    <string name="color_blanco">Blanco</string>
+    <string name="color_negro">Negro</string>
+    <string name="dificultad_facil">Facil</string>
+    <string name="dificultad_medio">Medio</string>
+    <string name="dificultad_dificil">Dificil</string>
+
+
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+
+    <TextView
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="15dp"
+        android:textSize="20dp"
+        android:id="@+id/txt_puntuacionEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Puntuación Final: 0" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tly_usuario"
+        android:layout_gravity="center"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresa un usuario" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="15dp"
+        android:id="@+id/btn_newGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jugar Nuevamente" />
+
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:id="@+id/btn_saveGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Guardar" />
+
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:id="@+id/btn_irHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ir Al Inicio" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
